@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+
+  <header class="main-header">
+    <img src="assets/images/logo.svg" class="main-header__logo"/>
+    <nav class="main-header__nav">
+      <a href="" class="main-header__link">Home</a>
+      <a href="" class="main-header__link">New</a>
+      <a href="" class="main-header__link">Popular</a>
+      <a href="" class="main-header__link">Trending</a>
+      <a href="" class="main-header__link">Categories</a>
+    </nav>
+    <img src="assets/images/icon-menu.svg" class="main-header__menu" id="menu"/>
+  </header>
+
+  <div class="mobile-nav hidden">
+    <div class="mobile-nav__shadow"></div>
+    <div class="mobile-nav__test">
+      <img src="assets/images/icon-menu-close.svg" id="close" class="mobile-nav__close"/>
+      <a href="" class="mobile-nav__link">Home</a>
+      <a href="" class="mobile-nav__link">New</a>
+      <a href="" class="mobile-nav__link">Popular</a>
+      <a href="" class="mobile-nav__link">Trending</a>
+      <a href="" class="mobile-nav__link">Categories</a>
+    </div>
+  </div>
+
+  <main class="hero">
+    <section class="hero__cta">
+      <div class="hero__img"></div>
+      <div class="hero__cta-info">
+        <h1 class="hero__main-title">The Bright Future of Web 3.0?</h1>
+        <div>
+          <p class="hero__description">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?</p>
+          <button class="hero__btn">Read more</button>
+        </div>
+      </div>
+    </section>
+
+    <article class="hero__news">
+      <h2 class="hero__news-title">New</h2>
+
+      <div class="hero__news-notice">
+        <a href="" class="hero__notice-title">
+          Hydrogen VS Electric Cars
+        </a>
+        <p class="hero__notice-description">
+          Will hydrogen-fueled cars ever catch up to EVs?
+        </p>
+      </div>
+
+      <hr>
+
+      <div class="hero__news-notice">
+        <a href="" class="hero__notice-title">
+          The Downsides of AI Artistry
+        </a>
+        <p class="hero__notice-description">
+          What are the possible adverse effects of on-demand AI image generation?
+        </p>
+      </div>
+
+      <hr>
+
+      <div class="hero__news-notice">
+        <a href="" class="hero__notice-title">
+          Is VC Funding Drying Up?
+        </a>
+        <p class="hero__notice-description">
+          Private funding by VC firms is down 50% YOY. We take a look at what that means.
+        </p>
+      </div>
+    </article>
+
+  </main>
+
+  <seciton class="ads">
+
+    <div class="ads__ad">
+      <img src="assets/images/image-retro-pcs.jpg" class="ads__img" />
+      <div class="ads__info">
+        <span class="ads__number">01</span>
+        <a href="" class="ads__title">Reviving Retro PCs</a>
+        <p class="ads__description">  What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+
+    <div class="ads__ad">
+      <img src="assets/images/image-top-laptops.jpg" class="ads__img" />
+      <div class="ads__info">
+        <span class="ads__number">02</span>
+        <a href="" class="ads__title">  Top 10 Laptops of 2022</a>
+        <p class="ads__description">  Our best picks for various needs and budgets.</p>
+      </div>
+    </div>
+
+    <div class="ads__ad">
+      <img src="assets/images/image-gaming-growth.jpg" class="ads__img" />
+      <div class="ads__info">
+        <span class="ads__number">03</span>
+        <a href="" class="ads__title">The Growth of Gaming</a>
+        <p class="ads__description">  How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
+  </seciton>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
